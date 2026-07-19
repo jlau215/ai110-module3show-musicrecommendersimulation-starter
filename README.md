@@ -23,9 +23,13 @@ Some prompts to answer:
 
 - What features does each `Song` use in your system
   - For example: genre, mood, energy, tempo
+    - My system will use similar features as given but they will have a different weighting system.
 - What information does your `UserProfile` store
+  - My `UserProfile` stores favorite genre and mood, target energy, and whether acoustic is liked or not. Additonal information are target valence, danceability, tempo, disliked generes, favorite artists, and context.
 - How does your `Recommender` compute a score for each song
+  - My `Recommender` computes a score for each song by adding 2.0 points if the song's genre matches the user's favorite genre, add 1.0 point if the mood matches, and up to 2.0 points based on how close the song's energy is to the user's target energy. It also adds a +0.5 bonus if the user likes acoustic music and the song's acousticness is high, and subtracts 3.0 points if the song's genre is on the user's disliked list. The score is not capped at 1.0. A perfect match across genre, mood, and energy goes around 5.0.
 - How do you choose which songs to recommend
+  - Every song in the catalog gets scored against the user profile, the list is sorted by score descending, and the top `k` (default 5) are returned as recommendations.
 
 You can include a simple diagram or bullet list if helpful.
 
