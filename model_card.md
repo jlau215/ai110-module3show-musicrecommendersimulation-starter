@@ -138,6 +138,8 @@ Prompts:
 - What you learned about recommender systems  
   - Recommender systems are complex and require a lot time and thinking to create reliable and accurate ones.
 - Something unexpected or interesting you discovered 
-  -  Setting up a separate function just for score calculations makes the code cleaner since it can be reused in other functions.
+  -  Setting up a separate function just for score calculations makes the code cleaner since it can be reused in other functions. While using AI tools to help, sometimes it gave complicated logic for simple data.
 - How this changed the way you think about music recommendation apps  
   - This made me think more about how music recommendations apps come up with reliable algorithms to recommend songs to users based on their preferences and actions.
+- What surprised you about how simple algorithms can still "feel" like recommendations?
+  - Simple algorithms can still be effective depending on the data given. 
