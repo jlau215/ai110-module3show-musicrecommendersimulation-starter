@@ -158,7 +158,7 @@ Summarize some limitations of your recommender.
 - `target_energy` is not validated
 - `favorite_artists` and `context` fields exist on user profile but are never used by the scoring logic
 - Case/whitespace sensitive
-- `likes_acoustic` is redudant
+- `likes_acoustic` is redundant
 - Genre is the main decider of high scores
 
 You will go deeper on this in your model card.
